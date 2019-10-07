@@ -1,32 +1,46 @@
-body {
+* {
+    box-sizing: border-box;
+   }
+   *:before,
+   *:after {
+    box-sizing: border-box;
+   }
+   
+   body {
+    height: 100%;
+
     background-color: black;
     color: black;
+
+   }
+.main-content {
+min-height: 100%;
+margin-bottom: -50px
 }
 
-#landing {
+
+#landing{
     height: 100vh;
     background-image: url('../images/machine2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    z-index: -1;
+   font-family: American Typewriter, serif;
+   
 }
 
-#mainText {
-    margin-top: 30vh;
-
+#mainText{
+    margin-top: 30vh;  
+    font-family: American Typewriter, serif;
+}
+#text{ text-align: center;
+    font-family: American Typewriter, serif;
 }
 
-#text {
-    text-align: center;
-
-
-}
-
-#intro {
-    height: 300px;
-    background-color: rgb(61, 61, 61);
+#intro{ 
+    height: 100%;
+    background-color: rgb(61,61,61);
     margin-top: 5px;
     background-image: url('../images/machine5.jpg');
     background-position: center;
@@ -34,45 +48,52 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
-
-
-
+    font-family: American Typewriter, serif;
+    
 }
 
-#work {
-    background-color: rgb(61, 61, 61);
+#work{
+    
+    background-color: rgb(61,61,61);
     margin-top: 50px;
     background-image: url('../images/machine2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    font-family: American Typewriter, serif;
 }
 
-
-#footer {
-    height: 300px;
-    text-align: end;
-    text-align: center;
-
+#footer,
+#push {
+    height: 50px;
 }
 
-#work2 {
-    background-color: rgb(61, 61, 61);
+#work2{
+    background-color: rgb(61,61,61);
     margin-top: 50px;
     background-image: url('../images/machine5.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    font-family: American Typewriter, serif;
+}
+#card{  
+    /* display:center; */
+    padding: 0 30rem;
+    font-size: medium;
 }
 
-#card {
-    margin-top: 50px;
-    display: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-
+#skillsets{
+    font-family: American Typewriter, serif;
+    
 }
+#navList{
+    font-family: American Typewriter, serif;
+    height: 100vh;
+}
+
+/* @media min-width:750px {
+
+} */
