@@ -56,6 +56,18 @@ body {
 
 }
 
+#name{
+    font-size: x-large;
+}
+
+#email {
+    font-size: x-large; 
+}
+
+#message {
+    font-size: x-large;
+}
+
 #work {
 
     background-color: rgb(61, 61, 61);
@@ -66,6 +78,7 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     font-family: American Typewriter, serif;
+    font-size: x-large; 
 }
 
 #footer,
@@ -87,7 +100,7 @@ body {
 #card {
     /* display:center; */
     padding: 0 30rem;
-    font-size: medium;
+    font-size: large;
 }
 
 #skillsets {
@@ -96,6 +109,7 @@ body {
 }
 
 #navList {
+    font-stretch: wider, x-large;
     font-family: American Typewriter, serif;
     height: 100vh;
 }
