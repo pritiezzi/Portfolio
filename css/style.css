@@ -56,12 +56,23 @@ body {
 
 }
 
-#name{
+label {
+    font-size: 1.5rem;
+    color:  #f0f0f0;
+}
+
+label.active {
+    font-size: 1.5rem;
+    color:  #f0f0f0;
+}
+
+#name {
     font-size: x-large;
+
 }
 
 #email {
-    font-size: x-large; 
+    font-size: x-large;
 }
 
 #message {
@@ -76,9 +87,8 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
     font-family: American Typewriter, serif;
-    font-size: x-large; 
+    font-size: x-large;
 }
 
 #footer,
@@ -111,5 +121,7 @@ body {
 #navList {
     font-stretch: wider, x-large;
     font-family: American Typewriter, serif;
+    font-size: 1rem;
     height: 100vh;
 }
+
